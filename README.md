@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kennisnet/py-eduterm-client.svg?branch=master)](https://travis-ci.org/kennisnet/py-eduterm-client)
+
 # EdutermClient
 Python library for interfacing with the Eduterm API.
 
