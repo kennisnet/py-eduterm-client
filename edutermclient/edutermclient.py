@@ -8,7 +8,7 @@ class EdutermClient:
         if not self.__checkUuid(apikey):
             raise EdutermClientError("API key not valid, not a UUID")
 
-        self.baseurl = "http://api.onderwijsbegrippen.kennisnet.nl/1.0/Query/";
+        self.baseurl = "https://api.onderwijsbegrippen.kennisnet.nl/1.0/Query/";
         self.endpoint = ""
         self.apikey = apikey
         self.query = ""
